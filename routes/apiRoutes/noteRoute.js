@@ -3,12 +3,14 @@ const{ filterByQuery, checkNote, createNewNote } = require('../../lib/notes');
 
 const {notes} = require('../../Develop/db/db.json');
 
-
+router.get('/', (req,res) => {
+    res.json(notes);
+});
 
 router.get('/notes', (req,res) => {
     let allNotes= notes;
-    console.log(notes);
     if(req.query) {
+        console.log(req.query);
         allNotes=filterByQuery(req.query, allNotes);
     }
     res.json(allNotes);
