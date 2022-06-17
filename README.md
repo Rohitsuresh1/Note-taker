@@ -19,7 +19,10 @@ A project that uses Express.js to connect back end to front end using API routes
   
 <a name="inst"></a>
 ## Installation
-This project can be installed by cloning from this repository and executed by installing all the dependencies and then running the command npm start.
+
+The deployed application can be reached at https://best-notes-ever.herokuapp.com
+
+This project can aslo be installed locally by cloning from this repository and executed by installing all the dependencies and then running the command npm start.
 
 <a name="license"></a>
 ## License
