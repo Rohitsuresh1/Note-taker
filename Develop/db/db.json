@@ -1,20 +1,9 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Test Title 2",
-      "text": "Test text 2"
-    },
-    {
-      "title": "Test Title 2",
-      "text": "Test text 2"
-    },
-    {
-      "title": "Test Title 4",
-      "text": "Test text 4"
+      "title": "title1",
+      "text": "note1",
+      "id": "de916a2f-2887-415d-b9fb-461edb258c48"
     }
   ]
 }
